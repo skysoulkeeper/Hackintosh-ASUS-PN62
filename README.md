@@ -24,7 +24,7 @@ Note * - Not included in stock mini PC
 | SSD*             | [Samsung SSD 970 PRO 512GB](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-pro-nvme-m2-512gb-mz-v7p512bw/#) + [Radiator](https://aliexpress.ru/item/4000834407360.html?spm=a2g0s.8937460.0.0.14352e0ekHrmCw) | 0xA808                         | Installed macOS system, Radiator just for fan, this SSD cold and not needed this |
 | HDD*             | [HGST HTS541010A7E630 1TB](https://www.hdsentinel.com/storageinfo_details.php?lang=en&model=HITACHI%20HTS541010A7E630) | -                              | Used for Time Machine, backups                               |
 | Card Reader      | Realtek® RTS5129                                             | 0x0129+0x02ED (USB Controller) | Not working in macOS at this time, but you can use "[hack](https://github.com/ManuGithubSteam/XiaoMi-Pro-2018-HackintoshOC/wiki/2.0-Setup-SD-Card-Reader)" |
-| Keyboard & Mouse | Logitech K400                                                |                                |                                                              |
+| Keyboard & Mouse | [Logitech K400](https://www.logitech.com/en-us/products/keyboards/k400-plus-touchpad-keyboard.920-007119.html)                                                |                                |                                                              |
 | SMBIOS           | [MacMini 8,1](https://support.apple.com/kb/SP782?viewlocale=en_US&locale=en_US) | -                              |                                                              |
 --------
 
@@ -61,6 +61,22 @@ Note * - Not included in stock mini PC
 | SSDT-RHUB-PN62 | Needed to fix Root-device errors on Asus and potentially MSI boards |
 | SSDT-SBUS-MCHC | Fixing SMBus support                                         |
 --------
+
+## Post-Install
+After successful installation macOS, open your terminal app and paste following commands:
+
+```bash
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+```
+
+This will:
+Disables autopoweroff: This is a form of hibernation
+Disables powernap: Used to periodically wake the machine for network, and updates(but not the display)
+Disables standby: Used as a time period between sleep and going into hibernation
+Disables wake from iPhone/Watch: Specifically when your iPhone or Apple Watch come near, the machine will wake
 
 ## Benchmarks:
 
