@@ -69,6 +69,22 @@ Note * - Not included in stock mini PC
 ### VideoProc
 ![Hackintosh](misc/videoproc.png)
 
+## Recomended Tools and Apps:
+* [Python](https://www.python.org/downloads/release/python-391/) for running python scripts and tools
+* [gibMacOS](https://github.com/corpnewt/gibMacOS) python script that can download macOS components direct from Apple
+* [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) python script that uses acidanthera's macserial to generate SMBIOS and optionally saves them to a plist
+* [MountEFI](https://github.com/corpnewt/MountEFI) or [ESP Mounter Pro](https://www.olarila.com/topic/4975-esp-mounter-pro-v19/) for mount EFI volume
+* [ProperTree](https://github.com/corpnewt/ProperTree) ProperTree is a cross-platform GUI plist editor written using Python
+* [SSDTTime](https://github.com/corpnewt/SSDTTime) a simple tool designed to make creating SSDTs simple
+* [MaciASL](https://github.com/acidanthera/MaciASL) for edit your SSDT tables *.dsl, *.aml
+* [IORegistryExplorer](https://github.com/khronokernel/IORegistryClone)  a lightweight system utility that allows macOS users to browse their IO registry utilizing streamlined GUI interface
+* [Hackintool](https://github.com/headkaze/Hackintool) The Swiss army knife of vanilla Hackintoshing
+* [CPUFriend](https://github.com/fewtarius/CPUFriendFriend) python script will inspect the frequency vectors of the X86PlatformPlugin plist matching your SMBIOS configuration and leverage acidanthera's CPUFriend ResourceConverter to help you optimize your power management configuration.
+* [USBMap](https://github.com/corpnewt/USBMap)  python script for mapping USB ports in macOS and creating a custom injector kext
+* [gfxutil](https://github.com/acidanthera/gfxutil) a tool to work with Device Properties commonly found in Apple Mac firmwares
+* [VDADecoderCheck](https://github.com/cylonbrain/VDADecoderCheck) Small command line tool that checks the capabilities of your graphics hardware & OS to decode h264 videos on your GPU
+
+
 ## References:
 * [Installation macOS and Opencore bootloader](https://dortania.github.io/OpenCore-Install-Guide/)
 * [ACPI SSDT editing](https://dortania.github.io/Getting-Started-With-ACPI/)
