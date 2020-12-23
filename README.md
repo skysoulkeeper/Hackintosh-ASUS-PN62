@@ -105,6 +105,7 @@ Disables wake from iPhone/Watch: Specifically when your iPhone or Apple Watch co
 * [Installation macOS and Opencore bootloader](https://dortania.github.io/OpenCore-Install-Guide/)
 * [ACPI SSDT editing](https://dortania.github.io/Getting-Started-With-ACPI/)
 * [OpenCore Configuration](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+* [Fixing iMessage and other services with OpenCore](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial)
 
 ## Credits:
 * https://applelife.ru/
