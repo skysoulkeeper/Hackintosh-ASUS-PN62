@@ -15,7 +15,7 @@ Note * - Not included in stock mini PC
 
 | Component        | Details                                                      | DeviceID                       | Comment                                                      |
 | ---------------- | ------------------------------------------------------------ | ------------------------------ | ------------------------------------------------------------ |
-| CPU              | [Intel® Core™ i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html) | -                              | Turbo Frequency working nice, FAN. For monitoring CPU, GPU, Drives, and other devices, you can install [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading), [iStat Menus](https://bjango.com/mac/istatmenus/)  and [TG Pro](https://www.tunabellysoftware.com/tgpro/) |
+| CPU              | [Intel® Core™ i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html) | -                              | Turbo Frequency working nice, FAN working fine. For monitoring CPU, GPU, Drives, and other devices, you can install [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading), [iStat Menus](https://bjango.com/mac/istatmenus/)  and [TG Pro](https://www.tunabellysoftware.com/tgpro/) |
 | iGPU             | Intel® UHD Graphics                                          | 0x3E9B                         | Used with HDMI output for TV, DisplayPort not tested. 3072MB VRAM - just cosmetics |
 | RAM*             | [Kingston 2x16GB 2666MHz DDR4](https://www.memorybenchmark.net/ram.php?ram=Kingston+KHX2666C15S4%2F16G+16GB&id=10472) + [Radiator](https://aliexpress.ru/item/4000815476029.html?spm=a2g0s.9042311.0.0.49aa33edmGILIA&sku_id=10000015569302262) | -                              | Radiators just for fan                                       |
 | Ethernet         | [Intel® I219-V](https://ark.intel.com/content/www/us/en/ark/products/82186/intel-ethernet-connection-i219-v.html) | 0x0D4F                         | Working without problem                                      |
@@ -24,7 +24,7 @@ Note * - Not included in stock mini PC
 | SSD*             | [Samsung SSD 970 PRO 512GB](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-pro-nvme-m2-512gb-mz-v7p512bw/#) + [Radiator](https://aliexpress.ru/item/4000834407360.html?spm=a2g0s.8937460.0.0.14352e0ekHrmCw) | 0xA808                         | Installed macOS system, Radiator just for fan, this SSD cold and not needed this |
 | HDD*             | [HGST HTS541010A7E630 1TB](https://www.hdsentinel.com/storageinfo_details.php?lang=en&model=HITACHI%20HTS541010A7E630) | -                              | Used for Time Machine, backups                               |
 | Card Reader      | Realtek® RTS5129                                             | 0x0129+0x02ED (USB Controller) | Not working in macOS at this time, but you can use "[hack](https://github.com/ManuGithubSteam/XiaoMi-Pro-2018-HackintoshOC/wiki/2.0-Setup-SD-Card-Reader)" |
-| Keyboard & Mouse | [Logitech K400](https://www.logitech.com/en-us/products/keyboards/k400-plus-touchpad-keyboard.920-007119.html)                                                |                                |                                                              |
+| Keyboard & Mouse | [Logitech K400](https://www.logitech.com/en-us/products/keyboards/k400-plus-touchpad-keyboard.920-007119.html) |                                |                                                              |
 | SMBIOS           | [MacMini 8,1](https://support.apple.com/kb/SP782?viewlocale=en_US&locale=en_US) | -                              |                                                              |
 --------
 
@@ -73,10 +73,10 @@ sudo pmset proximitywake 0
 ```
 
 This will:
-Disables autopoweroff: This is a form of hibernation
-Disables powernap: Used to periodically wake the machine for network, and updates(but not the display)
-Disables standby: Used as a time period between sleep and going into hibernation
-Disables wake from iPhone/Watch: Specifically when your iPhone or Apple Watch come near, the machine will wake
+* Disables autopoweroff: This is a form of hibernation
+* Disables powernap: Used to periodically wake the machine for network, and updates(but not the display)
+* Disables standby: Used as a time period between sleep and going into hibernation
+* Disables wake from iPhone/Watch: Specifically when your iPhone or Apple Watch come near, the machine will wake
 
 ## Benchmarks:
 
@@ -105,7 +105,7 @@ Disables wake from iPhone/Watch: Specifically when your iPhone or Apple Watch co
 * [Installation macOS and Opencore bootloader](https://dortania.github.io/OpenCore-Install-Guide/)
 * [ACPI SSDT editing](https://dortania.github.io/Getting-Started-With-ACPI/)
 * [OpenCore Configuration](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
-* [Fixing iMessage and other services with OpenCore](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial)
+* [Fixing iMessage and other services with OpenCore](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
 
 ## Credits:
 * https://applelife.ru/
