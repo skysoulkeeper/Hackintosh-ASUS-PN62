@@ -37,43 +37,43 @@ Note * - Not included in stock mini PC
 	    -	Intel (VMX) Virtualization Technology → **Enabled**
 	    -	Active Processor Cores → **All**
     -	System Agent (SA) Configuration
-	        -	VT-d → **Enabled**
+	    -	VT-d → **Enabled**
     -	PCH Configuration
-	        -	IOAPIC 24-119 Entries → **Enabled**
+	    -	IOAPIC 24-119 Entries → **Enabled**
     -	PCH Storage Configuration
-	        -	SATA Mode Selection → **AHCI**
-		    -   Aggressive LPM Support → **Enabled**
-		    -   SMART Self Test → **On**
-		    -   M.2 → **Enabled**
-		    -   SATA6G → **Enabled**
-		    -   Hot Plug → **Disabled**
+	    -	SATA Mode Selection → **AHCI**
+		-   Aggressive LPM Support → **Enabled**
+		-   SMART Self Test → **On**
+		-   M.2 → **Enabled**
+		-   SATA6G → **Enabled**
+		-   Hot Plug → **Disabled**
     -	PCH-FW Configuration
-	        -	Intel Platform Trust Technology → **Disable**
+	    -	Intel Platform Trust Technology → **Disable**
     -	Onboard Devices Configuration
-	        -   HD Audio → **Enabled**
-		    -   Intel LAN Controller → **Enabled**
-		    -   Connectivity mode (WiFi & Bluetooth) → **Enable**
-		    -   Display Priority → **HDMI**
-		    -   Onboard CIR → **Enabled**
-		    -   HDMI CEC Control → **Disabled**
+	    -   HD Audio → **Enabled**
+		-   Intel LAN Controller → **Enabled**
+		-   Connectivity mode (WiFi & Bluetooth) → **Enable**
+		-   Display Priority → **HDMI**
+		-   Onboard CIR → **Enabled**
+		-   HDMI CEC Control → **Disabled**
     -	APM Configuration
-	        -	ErP Ready → **Disabled**
-		    -   CEC Ready → **Disabled**
-		    -   Restore AC Power Loss → **Power Off**
-		    -   Power On By PCI-E → **Disabled**
-		    -   Power By RTC → **Disabled**
-		    -   USB S5 Wakeup Support → **Disabled**
+	    -	ErP Ready → **Disabled**
+		-   CEC Ready → **Disabled**
+		-   Restore AC Power Loss → **Power Off**
+		-   Power On By PCI-E → **Disabled**
+		-   Power By RTC → **Disabled**
+		-   USB S5 Wakeup Support → **Disabled**
     -	USB Configuration
-	    	-   Legacy USB Support → **Enabled**
-		    -   XHCI Hand-off → **Enabled**
-		    -   USB Single Port Control
-			    -   U32G1_1 → **Enabled**
-			    -   U32G1_2 → **Enabled**
-			    -   U32G1_3 → **Enabled**
-			    -   U32G2_C1 → **Enabled**
-			    -   U32G1_C2 → **Enabled**
+	    -   Legacy USB Support → **Enabled**
+		-   XHCI Hand-off → **Enabled**
+		-   USB Single Port Control
+			-   U32G1_1 → **Enabled**
+			-   U32G1_2 → **Enabled**
+			-   U32G1_3 → **Enabled**
+			-   U32G2_C1 → **Enabled**
+			-   U32G1_C2 → **Enabled**
     -	Network Stack Configuration
-            -   Network Stack → **Disabled**
+        -   Network Stack → **Disabled**
 
 * Monitor
 	-   CPU QFan → **Enabled**
