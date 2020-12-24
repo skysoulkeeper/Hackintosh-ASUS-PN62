@@ -33,9 +33,9 @@ Note * - Not included in stock mini PC
 
 * Advanced
     -	CPU Configuration
-            -	Software Guard Extensions (SGX) → **Disabled**
-	        -	Intel (VMX) Virtualization Technology → **Enabled**
-	        -	Active Processor Cores → **All**
+        -   Software Guard Extensions (SGX) → **Disabled**
+	    -	Intel (VMX) Virtualization Technology → **Enabled**
+	    -	Active Processor Cores → **All**
     -	System Agent (SA) Configuration
 	        -	VT-d → **Enabled**
     -	PCH Configuration
