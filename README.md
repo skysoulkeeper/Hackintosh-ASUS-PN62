@@ -75,23 +75,6 @@ Note * - Not included in stock mini PC
     -	Network Stack Configuration
             -   Network Stack → **Disabled**
 
-* Monitor
-	-   CPU QFan → **Enabled**
-	-   CPU Fan Control → **Quiet Mode**
-
-* Boot
-	-   Boot Configuration
-        -   Fast Boot → **Disabled**
-		-   Boot Logo Display → **Disabled**
-		-   POST Report → **5 sec**
-		-   Bootup NumLock State → **On**
-		-   Wait 'F1' if Error → **Enabled**
-		-   Option ROM Messages → **Force BIOS**
-		-   AMI Native NVMe Driver Support → **On**
-	-   Secure Boot
-		-   Secure Boot state → **Enabled**
-		-   OS Type → **Other OS**
-
 ## Kexts:
 | #    | Kext                                                         | Version | Description                                                  |
 | ---- | ------------------------------------------------------------ | ------- | :----------------------------------------------------------- |
