@@ -16,7 +16,7 @@ Note * - Not included in stock mini PC
 | Component        | Details                                                      | DeviceID                       | Comment                                                      |
 | ---------------- | ------------------------------------------------------------ | ------------------------------ | ------------------------------------------------------------ |
 | CPU              | [Intel® Core™ i7-10510U](https://ark.intel.com/content/www/us/en/ark/products/196449/intel-core-i7-10510u-processor-8m-cache-up-to-4-90-ghz.html) | -                              | Turbo Frequency working nice, FAN working fine. For monitoring CPU, GPU, Drives, and other devices, you can install [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html#attachment-heading), [iStat Menus](https://bjango.com/mac/istatmenus/)  and [TG Pro](https://www.tunabellysoftware.com/tgpro/) |
-| iGPU             | Intel® UHD Graphics                                          | 0x3E9B[^1]                         | Used with HDMI output for TV, DisplayPort not tested. 3072MB VRAM - just cosmetics |
+| iGPU             | Intel® UHD Graphics                                          | 0x3E9B(9B41)                         | Used with HDMI output for TV, DisplayPort not tested. 3072MB VRAM - just cosmetics |
 | RAM*             | [Kingston 2x16GB 2666MHz DDR4](https://www.memorybenchmark.net/ram.php?ram=Kingston+KHX2666C15S4%2F16G+16GB&id=10472) + [Radiator](https://aliexpress.ru/item/4000815476029.html?spm=a2g0s.9042311.0.0.49aa33edmGILIA&sku_id=10000015569302262) | -                              | Radiators just for fan                                       |
 | Ethernet         | [Intel® I219-V](https://ark.intel.com/content/www/us/en/ark/products/82186/intel-ethernet-connection-i219-v.html) | 0x0D4F                         | Working without problem                                      |
 | Wireless / BT    | [Intel® Wi-Fi 6 AX201 + Bluetooth® 5.1](https://www.intel.com/content/www/us/en/products/docs/wireless/wi-fi-6-ax201-module-brief.html?wapkw=ax201) | 0x02F0+0x0026 (BT)             | WiFi and BT working without problem                          |
@@ -27,8 +27,6 @@ Note * - Not included in stock mini PC
 | Keyboard & Mouse | [Logitech K400](https://www.logitech.com/en-us/products/keyboards/k400-plus-touchpad-keyboard.920-007119.html) |                                |                                                              |
 | SMBIOS           | [MacMini 8,1](https://support.apple.com/kb/SP782?viewlocale=en_US&locale=en_US) | -                              |                                                              |
 --------
-
-[^1]: Все сноски отображаются в конце страницы
 
 ## BIOS Settings:
 
